@@ -23,7 +23,7 @@ from tensorflow.keras.layers import Dense, Flatten, Embedding, Input, LSTM, Conv
 from tensorflow.keras.models import Model
 from tensorflow.keras.utils import to_categorical
 
-stock_df = pd.read_csv(r"C:\Users\udayd\Downloads\stock_sentiment.csv")
+stock_df = pd.read_csv("stock_sentiment.csv")
 
 # check for null values
 stock_df.isnull().sum()
