@@ -5,7 +5,7 @@ We live in a world where we are constantly bombarded with social media feeds, tw
 
 The goal of this program is to use Natural Language Processing to convert words into numbers and train a LSTM network model to make predictions.
 
-![](Understanding.jpg)
+![](Understanding.JPG)
 
 # HOW IT WORKS
 
@@ -13,11 +13,11 @@ It reads information about a stock from a csv file. A tokenizer then vectorizes 
 
 A confusion matrix is then used to graph predictions and errors.
 
-![](CM.jpg)
+![](CM.JPG)
 
 The output is then presented in the form of a plot.
 
-![](W.jpeg)
+![](W.png)
 
 # REQUIREMENTS
 
